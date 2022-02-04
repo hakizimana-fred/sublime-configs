@@ -1,7 +1,7 @@
 
 [
 	{
-        "comment":"these are for keybindings. preferences-keybindings",
+        "comment":"these are for keybindings, if you want to use terminal in your sublime, you must install the terminus package. preferences-keybindings",
 		"keys": ["j", "k"],
 		"command": "exit_insert_mode",
 		"context":
