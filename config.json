@@ -21,7 +21,7 @@
    },
 
    {
-        "comment2":"These will have vim enabled in your sublime text editor. preferences-settings",
+        "comment2":"These will have vim enabled in your sublime text editor plus change your default theme to Agila Neon. preferences-settings",
 	    "font_size": 14,
 	    "ignored_packages": [],
 	    "vintage_start_in_command_mode": true,
