@@ -1,0 +1,31 @@
+
+[
+	{
+        "comment":"these are for keybindings. preferences-keybindings",
+		"keys": ["j", "k"],
+		"command": "exit_insert_mode",
+		"context":
+    [
+        { "key": "setting.command_mode", "operand": false },
+        { "key": "setting.is_widget", "operand": false }
+    ]
+	},
+	 {
+       "keys": ["ctrl+`"],
+       "command": "terminus_open",
+       "args" : {
+           "cmd": "zsh",
+           "cwd": "${file_path:${folder}}",
+           "panel_name": "Terminus"
+       }
+   },
+
+   {
+        "comment2":"These will have vim enabled in your sublime text editor. preferences-settings",
+	    "font_size": 14,
+	    "ignored_packages": [],
+	    "vintage_start_in_command_mode": true,
+	    "theme": "Agila Neon.sublime-theme"
+   }
+]
+
